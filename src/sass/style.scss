@@ -1,0 +1,24 @@
+@import 'normalize';
+
+@import 'scafolding';
+
+
+
+h2 {
+  font-size: 1.2em;
+}
+
+body {
+  padding: 0;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 100vh;
+}
+
