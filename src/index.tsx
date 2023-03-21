@@ -4,6 +4,7 @@ import App from "./App";
 import { Provider } from 'react-redux'
 
 
+
 ReactDOM.render(<App />, document.getElementById("root") as HTMLElement);
 
-//<Provider store={store} ><ThemeProvider><App /></ThemeProvider></Provider>
+
