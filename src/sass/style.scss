@@ -2,10 +2,14 @@
 
 @import 'scafolding';
 
+@import 'variables';
+
+@import '../pages/NotesPage/NotesPage.scss';
+
 
 
 h2 {
-  font-size: 1.2em;
+  font-size: $main-header-height;
 }
 
 body {
@@ -14,11 +18,6 @@ body {
 
 #root {
   display: flex;
-  flex-direction: column;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
   min-height: 100vh;
 }
 
