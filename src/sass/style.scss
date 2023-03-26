@@ -5,8 +5,11 @@
 @import 'variables';
 
 @import '../pages/NotesPage/NotesPage.scss';
-
-
+@import '../components/NotesList/NotesList.scss';
+@import '../components/Note/Note.scss';
+@import '../components/AddNote/AddNote.scss';
+@import '../components/SearchBar/SearchBar.scss';
+@import '../components/Tags/Tags.scss';
 
 h2 {
   font-size: $main-header-height;
@@ -18,6 +21,6 @@ body {
 
 #root {
   display: flex;
+  background-color: $body-bg;
   min-height: 100vh;
 }
-
