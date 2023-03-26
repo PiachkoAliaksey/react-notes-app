@@ -9,7 +9,7 @@ import './sass/style.scss';
 function App() {
   return (
     <>
-      <NotesPage/>
+      <NotesPage />
     </>
   )
 }
