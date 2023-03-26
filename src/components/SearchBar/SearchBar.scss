@@ -1,0 +1,16 @@
+.search-bar {
+  color: black;
+  display: flex;
+  align-items: center;
+
+}
+
+.input-search-note {
+  outline: none;
+  margin-left: 5px;
+  border: none;
+  border-bottom: 2px solid red;
+  background-color: #cdcdcd;
+  flex: 1;
+  padding: 5px;
+}
