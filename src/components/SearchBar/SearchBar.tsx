@@ -10,7 +10,6 @@ const SearchBar: React.FC<ISearchBar> = ({ handleSearchNote }) => {
     <div className='search-bar'>
       <MdSearch className='search-icon' size='1.3em' />
       <input onChange={(e) => handleSearchNote(e.currentTarget.value)} className='input-search-note' type='text' placeholder='type to search...' />
-
     </div>
   )
 
