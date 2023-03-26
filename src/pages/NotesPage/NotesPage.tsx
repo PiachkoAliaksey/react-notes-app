@@ -4,13 +4,13 @@ import NotesList from '../../components/NotesList/NotesList';
 
 
 
-const NotesPage:React.FC = () => {
+const NotesPage: React.FC = () => {
 
   return (
     <>
       <main className='notes-page'>
         <h2 className='header-notes-page'>Notes Application</h2>
-        <NotesList/>
+        <NotesList />
       </main>
     </>
   )
