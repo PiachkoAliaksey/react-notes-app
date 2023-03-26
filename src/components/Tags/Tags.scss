@@ -1,0 +1,22 @@
+.tag-item {
+  display: flex;
+  align-items: center;
+  background-color: goldenrod;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin: 0 5px 5px 0;
+}
+
+.icon-delete-tag {
+  background-color: aqua;
+  padding: 2px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-left: 2px;
+  transition: 0.1s ease-in-out;
+  filter: opacity(0.8);
+}
+
+.icon-delete-tag:hover {
+  filter: opacity(1);
+}
