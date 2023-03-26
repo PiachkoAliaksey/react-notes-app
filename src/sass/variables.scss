@@ -1,21 +1,16 @@
-$mobile-widths: "max-width: 767px";
-$tablet-widths: "max-width: 1279px";
 //--- Font-size...
 
 $main-font-size: 1rem;
 
 $main-line-height: 1rem;
 
-$main-header-height: 1.2rem;
+$main-header-height: 1.6rem;
 
 
 //--- Font-colors...
 
-$main-font-color: #545454;
+$main-font-color: #cdcdcd;
 
-$second-font-color: #ffffff;
-
-$third-font-color: #cdcdcd;
 
 //--- Btn-backgrounds...
 
@@ -27,11 +22,16 @@ $btn-bg: #F1CDB3;
 
 //--- Main-backgrounds...
 
-$body-bg: #FFFFFF;
+$body-bg: #cdcdcd;
 
-$background-color-1: #069bff;
+$background-color-note: #F8E473;
 
 $background-color-2: #ed4679;
+
+//--- Main-text-color...
+
+$text-color-note: black;
+
 
 //--- Border colors...
 
@@ -39,4 +39,6 @@ $main-border-color: #2d2d2d;
 
 $disabled-border: #CDCDCD;
 
-//--- Animation...
+//--- Min-height-block...
+
+$min-height-note: 170px;
