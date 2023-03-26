@@ -23,7 +23,6 @@ const Note: React.FC<INote> = ({ index, text, date, handleDeleteNote, tags, hand
     setEditNoteId(id);
     setEditNoteText(newText);
     handleEditNote(index, newText);
-
   }
 
   const handelChangeEditTextNote = (e: React.FormEvent<HTMLTextAreaElement>) => {
