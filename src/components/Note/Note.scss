@@ -1,0 +1,88 @@
+.text-of-note {
+  margin-bottom: 10px;
+  display: block;
+  word-wrap: break-word;
+  line-height: 1.1;
+  text-align: justify;
+  white-space: pre-wrap;
+  height: 160px;
+}
+
+.footer-note {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 5px 0 5px 0;
+}
+
+.delete-icon {
+  cursor: pointer;
+  filter: opacity(0.8);
+  transition: 0.1s ease-in-out;
+
+}
+
+.date-small {
+  margin: 5px 0 5px 0;
+}
+
+.delete-icon:hover {
+  filter: opacity(1);
+}
+
+.delete-icon:active {
+  font-size: 0.9em;
+}
+
+.edit-button {
+  background-color: $btn-bg;
+  font-size: 0.8em;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: 0.2s ease-in-out;
+}
+
+.edit-button:hover {
+  background-color: $btn-bg-hover-color;
+}
+
+.edit-button:active {
+  background-color: $btn-bg-active-color;
+}
+
+.list-edit-text-note {
+  display: flex;
+  flex-direction: column;
+}
+
+.text-edit-note {
+  height: 160px;
+  border: none;
+  resize: none;
+  background-color: $background-color-note;
+  text-align: justify;
+  line-height: 1.1;
+  margin-bottom: 10px;
+}
+
+.text-edit-note:focus {
+  outline: none;
+}
+
+.list-tags {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+  margin-bottom: 10px;
+}
+
+.noteHighlight {
+  text-align: justify;
+  line-height: 1.1;
+  display: block;
+  margin-bottom: 10px;
+  background-color: antiquewhite;
+}
